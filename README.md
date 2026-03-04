@@ -48,13 +48,12 @@ In Calendly:
 3. Choose **Personal access tokens**
 4. Click **Get a token now**
 
-(See `calendly2.png` for the UI flow.)
-
+![Result Image](img/calendly2.png)
 ### 2) Grant access / copy the token
 
 Follow the Calendly screens to create the token and copy it.
 
-(See `getToken.png`.)
+![Result Image](img/getToken.png)
 
 ### 3) Add the token to Google Tag Manager (Constant Variable)
 
@@ -65,7 +64,7 @@ In **Google Tag Manager**:
 3. Name it exactly: **`Calendly_Token`**
 4. Paste your token as the value
 
-(See `setTokenOnGtm.png`.)
+![Result Image](img/setTokenOnGtm.png)
 
 ### 4) Add the listener script as a Custom HTML tag
 
@@ -85,7 +84,7 @@ In **Google Tag Manager**:
 2. Complete a test booking in Calendly.
 3. In Tag Assistant / Data Layer you should see an event named **`calendly_booked`**.
 
-(See `result.png`.)
+![Result Image](img/result.png)
 
 ---
 
@@ -106,5 +105,5 @@ This repo README references these images (add them to the repo if you want them 
 - `setTokenOnGtm.png`
 - `result.png`
 
-Calendly logo (external):
-- https://www.stickpng.com/img/icons-logos-emojis/tech-companies/calendly-logo
+
+![GitHub Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRco2flprjWvXEDAQWsXdGnOgJTL4c1hlELQA&s)
